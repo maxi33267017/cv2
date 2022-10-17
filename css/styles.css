@@ -9,16 +9,18 @@ body {
     margin-top: 10px;
     margin-bottom: 0;
     font-family: 'Sacramento', cursive;
-    font-size: 300%;
+    font-size: 4rem;
     color: #FA7070;
 }
 
 .myprofession{
+    display: block;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #FA7070;
+    font-size: 1rem;
 }
 
 .emphasis{
@@ -29,14 +31,14 @@ body {
 
 .clouds-low{
     position: absolute;
-    top: 130px;
-    right: 1100px;
-    width:15%
+    margin-left: 180px;
+    top: 90px;
+    width: 15%;
 }
 .clouds-high{
     position: absolute;
-    margin-left: 100px;
-    top: 330px;
+    margin-left: 20px;
+    top: 340px;
     width: 15%;
 }
 
@@ -51,3 +53,10 @@ body {
 .aoe{
     width: 16%;
 }
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
