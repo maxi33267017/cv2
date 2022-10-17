@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.myname{
+    padding-top: 250px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 300%;
+    color: #FA7070;
+}
+
+.myprofession{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #FA7070;
+}
+
+.emphasis{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.clouds-low{
+    position: absolute;
+    top: 130px;
+    right: 1100px;
+    width:15%
+}
+.clouds-high{
+    position: absolute;
+    margin-left: 100px;
+    top: 330px;
+    width: 15%;
+}
+
+.mountain{
+    width: 50%;
+    margin: auto;
+}
+.webdesign{
+    width: 8%;
+}
+
+.aoe{
+    width: 16%;
+}
